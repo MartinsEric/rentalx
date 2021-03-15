@@ -1,2 +1,5 @@
-console.log('teste')
-console.log('teste2')
+import express from "express";
+
+const app = express();
+
+app.listen(3333, () => console.log("Server is running!"));
